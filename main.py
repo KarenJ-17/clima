@@ -13,5 +13,6 @@ arg={
     'temperatura': temp
 }
 response= requests.post(url,data=arg)
-print(response.text)
+print(response.text) 
+print("xxx")
 
